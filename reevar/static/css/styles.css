@@ -1,0 +1,377 @@
+* {
+    box-sizing: border-box;
+}
+
+.navbar {
+    --bs-navbar-padding-y: 1.2rem;
+}
+
+#navbarSupportedContent ul {
+    list-style-type: none;
+    margin-bottom: 0;
+}
+
+#navbarSupportedContent a {
+    color: black;
+    text-decoration: none;
+    font-weight: 900;
+}
+
+#howTo {
+    background-color: #F6F6F6;
+}
+
+.px-howTo h4,
+#howTo span {
+    letter-spacing: 1px;
+}
+
+.px-howTo h4 {
+    font-size: 48px;
+    font-weight: 800;
+}
+
+#howTo span {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#howTo i {
+    font-size: 80px;
+    color: cadetblue;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+#howTo h5 {
+    font-size: 32px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+#ready h4 {
+    color: #34c5bf;
+}
+
+#ready span {
+    color: #6f46ea;
+}
+
+#ready h4,
+#ready span {
+    letter-spacing: 1px;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+}
+
+#ready a {
+    margin-top: 17%;
+}
+
+
+/* HOMEPAGE CSS STYLES START */
+
+#jumbo {
+    background-color: #684FFF;
+}
+
+#jumbo h3 {
+    font-size: 48px;
+    letter-spacing: 1px;
+    color: #fff;
+    line-height: 56px;
+    font-weight: 900;
+}
+
+#jumbo h5 {
+    font-size: 24px;
+    letter-spacing: 1px;
+    color: #fff;
+    line-height: 32px;
+    font-weight: 500;
+}
+
+#what-is {
+    background-color: #E4DFFB;
+}
+
+#what-is h5,
+#howWorks h5 {
+    color: #484848;
+    letter-spacing: 1px;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 56px;
+}
+
+#what-is p,
+#howWorks p {
+    color: #484848;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 400;
+}
+
+#howWorks {
+    background-color: #F6F6F6;
+}
+
+#howWorks i {
+    font-size: 40px;
+    color: cadetblue;
+} 
+
+#howWorks h6 {
+    color: #484848;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+#howWorks span {
+    color: #484848;
+    margin-top: 8px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+#shopOnline p {
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 900;
+}
+
+#shopOnlineText {
+    padding-top: 64px;
+}
+
+.shopImg {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#shopOnlineImg {
+    width: 100%;
+    max-width: 500px;
+    height: 100%;
+    max-height: 510px;
+} 
+
+#shopOnline h4 {
+    letter-spacing: 1px;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 56px;
+}
+
+#shopOnline ul {
+    list-style-type: none;
+    padding-left: 0rem;
+}
+
+#shopOnline li:first-child {
+    padding-top: 32px;
+}
+
+#shopOnline li {
+    color: #484848;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    padding-bottom: 64px;
+}
+
+#shopOnline i {
+    font-size: 24px;
+    color: #6F46EA;
+    margin-right: 10px;
+}
+
+
+/* HOMEPAGE CSS STYLES END */
+
+
+
+
+
+
+
+
+/* PRIVACY POLICY CSS STYLES START */
+
+#privacyPolicyHeader h4 {
+    font-size: 40px;
+    letter-spacing: 1px;
+    color: #6f46ea;
+    font-weight: 900;
+    line-height: 56px;
+}
+
+#privacyPolicyHeader p {
+    font-size: 24px;
+    line-height: 32px;
+}
+
+#scrollContainer {
+    height: 380px;
+    overflow-y: scroll;
+}
+
+#scrollContainer h5 {
+    font-size: 32px;
+    color: #34c5bf;
+}
+
+#scrollContainer h6 {
+    font-size: 48px;
+    color: #684FFF;
+}
+
+
+/* PRIVACY POLICY CSS STYLES END */
+
+
+
+
+
+
+
+
+/* FOOTER CSS STYLES START */
+
+#footer-links ul {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+#footer-links li {
+    margin-bottom: 5px;
+}
+
+#footer-links a {
+    color: black;
+    text-decoration: none;
+}
+
+/* FOOTER CSS STYLES END */
+
+
+/* CUSTOM CSS STYLES START */
+
+.px-howWorks1 {
+    padding-left: 10% !important;
+    padding-right: 10% !important;
+}
+
+.btn-ready {
+    padding: 0.85rem 1.75rem !important;
+    color: #fff;
+}
+ 
+/* CUSTOM CSS STYLES START */
+
+
+
+
+/* MEDIA BREAKPOINT CSS STYLES START */
+
+/* X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) { 
+    #jumboText {
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .px-whatIs {
+        padding-left: 2% !important;
+        padding-right: 2% !important;
+    }
+
+    .px-howWorks {
+        padding-left: 2% !important;
+        padding-right: 2% !important;
+    }
+
+    #shopOnlineText {
+        text-align: center;
+    }
+
+    #shopOnlineText {
+        text-align: center;
+    }
+
+    .px-howTo {
+        padding-left: 2% !important;
+        padding-right: 2% !important;
+    }
+
+    #ready div {
+        padding-left: 0rem !important;
+    }
+
+    #readyLink {
+        display: flex;
+        justify-content: center;
+    }
+
+    .iphoneMx {
+        padding-left: 0.1rem !important;
+        padding-right: 0.1rem !important;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {  }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    .jumboBig-px {
+        padding-left:  3rem !important;
+        padding-right: 3rem !important;
+    }
+
+    .px-whatIs {
+        padding-left: 30% !important;
+        padding-right: 30% !important;
+    }
+
+    .px-howWorks {
+        padding-left: 22% !important;
+        padding-right: 22% !important;
+    }
+
+    .px-howTo {
+        padding-left: 35% !important;
+        padding-right: 35% !important;
+    }
+
+    #ready div {
+        padding-left: 1rem !important;
+    }
+
+    .iphoneMx {
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+    }
+}
+
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  }
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {  }
+
+
+/* MEDIA BREAKPOINT CSS STYLES END */
+
+
